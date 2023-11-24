@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans:wght@400;500;600;700;800&display=swap');
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* Nav and Header Section */
+body{
+    background: #181818;
+}
+.main-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    top: 0;
+    background: #181818;
+    border-bottom: 1px solid #9B9D9E;
+}
+.main-header .logo{
+    width: 240px;
+    margin: 0 24px;
+}
+nav{
+    width: 70%;
+}
+.main-header .nav-list{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 32px;
+}
+.main-header .nav-list .item-nav{
+    font-size: 16px;
+    font-weight:600;
+    color: #9B9D9E;
+    font-family: 'Open Sans';
+}
+
+
+.home-section{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(44, 31, 31, 0.281) url('../assets/home.jpg') top /cover no-repeat;
+    font-family: 'Black Ops One';
+    color: #ffffff;
+}
+.home-section h1{
+    font-weight: 400;
+    font-size: 80px;
+}
+.home-section p{
+    margin: 0 0 280px 0;
+}
