@@ -46,16 +46,48 @@ nav{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background: rgba(44, 31, 31, 0.281) url('../assets/home.jpg') top /cover no-repeat;
     font-family: 'Black Ops One';
     color: #ffffff;
 }
 .home-section h1{
+
     font-weight: 400;
-    font-size: 80px;
+    font-size: 72px;
+    margin:100px 0 0;
 }
-.home-section p{
-    margin: 0 0 280px 0;
+
+
+@media screen and (max-width: 768px){
+    .main-header{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-header .logo{
+        width: 180px;
+        margin:0 auto;
+    }
+    nav{
+        width: 100%;
+    }
+    .main-header .nav-list{
+        padding-bottom: 12px;
+        
+    }
+    .main-header .nav-list .item-nav{
+        font-size: 12px;
+    }
+    
+    .home-section h1{
+        margin: 120px 0 0;
+        font-size: 28px;
+        
+    }
+    .home-section p{
+        font-size: 12px;
+        margin: 0 0 240px 0;
+    }
 }
