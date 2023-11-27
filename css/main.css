@@ -138,6 +138,49 @@ nav{
     line-height: 2;
 }
 
+/* Contact section */
+
+.contact{
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 20px;
+}
+
+.contact .contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+
+.contact .contact-content img{
+    width: 50%;
+    border-radius: 20px;
+}
+.contact .contact-content .team-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+}
+.contact .contact-content .team-container .team{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 4px;
+}
+.contact .contact-content .team-container .team h3{
+    font-size: 22px;
+    color: #FFFB00;
+}
+.contact .contact-content .team-container .team p{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+}
 
 /* For Mobile */
 
@@ -190,5 +233,13 @@ nav{
     }
     .about-us .about-us-content img{
         width: 90%;
+    }
+    
+    .contact .contact-content{
+        flex-wrap: wrap;
+    }
+    .contact .contact-content .team-container{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }
