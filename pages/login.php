@@ -1,3 +1,11 @@
+<?php
+if($_POST){
+    if( ($_POST['correo']=="santiagoz@gmail.com") && ($_POST['password']=="12345")){
+        echo "Logueado, OK";
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,11 +31,11 @@
         </nav>
     </header>
     <main class="main">
-            <form class="form-container" action="">           
+            <form class="form-container" action="login.php" method="post">           
                 <img src="../assets/future-logo.png" alt="">   
-                <input id="email" type="email" placeholder="Correo">
-                <input id="password" type="password" placeholder="Contraseña" >
-                <input class="button" type="button" value="Ingresar">
+                <input id="email" name="correo" type="email" placeholder="Correo">
+                <input id="password" name="password" type="password" placeholder="Contraseña" >
+                <button class="button" type="submit">Ingresar</button>
             </form>
     </main>
 </body>
