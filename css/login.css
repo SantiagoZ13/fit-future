@@ -21,7 +21,7 @@ main{
     border-radius: 28px;
 }
 .form-container img{
-    width: 320px;
+    width: 60%;
 }
 .form-container input{
     background: #464545d2;
@@ -41,4 +41,15 @@ main{
     width: 64%;
     color: #000;
     letter-spacing: 4px;
+}
+
+@media screen and (max-width: 768px){
+    .form-container img{
+        width: 100%;
+    }
+    .form-container input{
+        padding: 8px;
+        width: 80%;
+        font-size: 12px;
+    }
 }

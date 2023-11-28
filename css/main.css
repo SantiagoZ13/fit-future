@@ -110,6 +110,8 @@ nav{
 }
 .plan > .plan-image{
     width: 100%;
+    border-radius: 20px;
+    border: 1px solid #181818;
 }
 .plan > .plan-icon{
     width: 32%;
