@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgba(44, 31, 31, 0.281) url('../assets/login-background.jpg') top /cover no-repeat;
+}
+main{
+    font-family: 'Black Ops One';
+}
+.form-container{
+    width: 40%;
+    height: 360px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: #181818d2;
+    border-radius: 28px;
+}
+.form-container img{
+    width: 320px;
+}
+.form-container input{
+    background: #464545d2;
+    width: 60%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    color: #FFFB00;
+}
+.form-container .button{
+    background: #FFFB00;
+    cursor: pointer;
+    color: #000;
+    transition: all 0.3s;
+}
+.form-container .button:hover{
+    width: 64%;
+    color: #000;
+    letter-spacing: 4px;
+}
